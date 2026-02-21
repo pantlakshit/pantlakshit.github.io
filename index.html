@@ -6,7 +6,6 @@
 
 <title>Lakshit Pant | UI/UX & Branding Portfolio</title>
 
-<!-- Premium Apple-like Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 <style>
@@ -25,7 +24,7 @@ line-height:1.7;
 -webkit-font-smoothing: antialiased;
 }
 
-/* SUBTLE APPLE GLOW BACKGROUND */
+/* APPLE GLOW BG */
 body::before{
 content:"";
 position:fixed;
@@ -37,7 +36,7 @@ background:radial-gradient(circle, rgba(255,255,255,0.04), transparent 70%);
 z-index:-1;
 }
 
-/* HEADER (Ultra Apple Hero) */
+/* HEADER */
 header{
 padding:130px 20px 90px;
 text-align:center;
@@ -72,38 +71,22 @@ font-size:42px;
 font-weight:600;
 margin-bottom:45px;
 letter-spacing:-0.9px;
-color:#ffffff;
 }
 
-/* PROJECT GRID */
+/* GRID */
 .projects{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
 gap:40px;
 }
 
-/* APPLE GLASS CARDS + GLOW */
+/* CARDS */
 .card{
-position:relative;
 background:linear-gradient(180deg,#111111,#0d0d0d);
 padding:36px;
 border-radius:24px;
 transition:all 0.4s ease;
 border:1px solid #1f1f1f;
-overflow:hidden;
-}
-
-.card::before{
-content:"";
-position:absolute;
-inset:0;
-background:radial-gradient(circle at top left, rgba(255,255,255,0.06), transparent 60%);
-opacity:0;
-transition:0.4s;
-}
-
-.card:hover::before{
-opacity:1;
 }
 
 .card:hover{
@@ -125,7 +108,7 @@ font-size:16px;
 margin-bottom:22px;
 }
 
-/* TAGS (PRO DESIGNER STYLE) */
+/* TAGS */
 .tags{
 margin-bottom:18px;
 }
@@ -141,20 +124,21 @@ color:#cfcfcf;
 border:1px solid #2a2a2a;
 }
 
-/* LOGO IMAGE WITH HOVER ZOOM */
+/* IMAGE */
 .logo-img{
 width:100%;
 border-radius:18px;
 margin-bottom:18px;
 border:1px solid #1f1f1f;
 transition:0.4s ease;
+cursor:pointer;
 }
 
 .logo-img:hover{
 transform:scale(1.03);
 }
 
-/* APPLE BUTTON */
+/* BUTTON */
 .project-btn{
 display:inline-block;
 padding:13px 26px;
@@ -170,25 +154,6 @@ transition:all 0.3s ease;
 .project-btn:hover{
 background:#e6e6e6;
 transform:scale(1.06);
-}
-
-/* GITHUB BUTTON */
-.github-btn{
-margin-top:25px;
-display:inline-block;
-padding:12px 24px;
-background:#1f1f1f;
-color:#ffffff;
-border-radius:999px;
-text-decoration:none;
-font-size:14px;
-border:1px solid #2a2a2a;
-transition:0.3s;
-}
-
-.github-btn:hover{
-background:#2a2a2a;
-transform:scale(1.05);
 }
 
 /* ABOUT */
@@ -222,32 +187,40 @@ border-top:1px solid #141414;
 Designing minimal, premium and conversion-focused digital experiences 
 with a strong focus on UI/UX, branding and real-world client brief projects.
 </p>
-
-<a href="https://github.com/pantlakshit" class="github-btn" target="_blank">
-View My GitHub →
-</a>
 </header>
 
 <section>
 <h2>Featured Projects</h2>
+
 <div class="projects">
 
+<!-- MERGED SPARK PROJECT -->
 <div class="card">
-<h3>Spark — Branding & Identity</h3>
+<h3>Spark — Branding, Identity & Logo</h3>
+
+<a href="images/sample-logo.jpg" target="_blank">
+<img src="images/sample-logo.jpg" alt="Spark Logo" class="logo-img">
+</a>
 
 <div class="tags">
 <span class="tag">Branding</span>
+<span class="tag">Logo Design</span>
 <span class="tag">Identity</span>
 <span class="tag">Creative Direction</span>
 </div>
 
 <p>
-A cinematic branding system designed for an animation workshop company targeting young adults.
-Focused on premium visual identity, modern aesthetics, and a professional brand presence 
-with strong customer-centric design thinking.
+A complete cinematic branding system designed for the Spark animation workshop brand targeting young adults. 
+The project includes logo design, visual identity, and premium brand positioning with a modern, minimal and 
+memorable aesthetic suitable for digital platforms and creative industries.
 </p>
+
+<a href="images/sample-logo.jpg" class="project-btn" target="_blank">
+View Full Logo →
+</a>
 </div>
 
+<!-- TECHNICAL HOURGLASS -->
 <div class="card">
 <h3>Technical Hourglass — Full Website Design</h3>
 
@@ -259,34 +232,12 @@ with strong customer-centric design thinking.
 
 <p>
 A modern multi-page website (Shop, Blog, Contact) created for a health-tech brand focused on people living alone.
-Designed with minimal UI, strong UX hierarchy, and a conversion-focused landing page using a clean
-and professional design system.
+Designed with strong UX hierarchy, minimal Apple-style UI, and a clean professional layout 
+optimized for clarity and conversions.
 </p>
 
-<a href="Sample%20Project%20for%20Portfolio/" class="project-btn" target="_blank">
+<a href="sample-project/" class="project-btn" target="_blank">
 View Live Website →
-</a>
-</div>
-
-<div class="card">
-<h3>Spark — Logo Design</h3>
-
-<img src="images/Sample%20Logo.jpg" alt="Spark Logo" class="logo-img">
-
-<div class="tags">
-<span class="tag">Logo Design</span>
-<span class="tag">Minimal</span>
-<span class="tag">Brand Identity</span>
-</div>
-
-<p>
-A modern and minimal logo designed for the Spark animation workshop brand. The logo reflects creativity,
-professionalism, and a premium identity aimed at young adults, combining simplicity with a bold and
-memorable visual presence suitable for digital branding.
-</p>
-
-<a href="images/Sample%20Logo.jpg" class="project-btn" target="_blank">
-View Full Logo →
 </a>
 </div>
 
@@ -298,8 +249,8 @@ View Full Logo →
 <div class="about">
 <p>
 Hello, I'm Lakshit Pant — a UI/UX and Branding focused student designer building modern,
-minimal and real-world portfolio projects. I practice using professional client briefs
-(like GoodBrief) to simulate real industry design workflows and create conversion-focused designs.
+minimal and real-world portfolio projects based on professional client briefs to simulate
+industry-level design workflows and create premium digital experiences.
 </p>
 <br>
 <p><strong>Skills:</strong> UI/UX Design, Branding, Logo Design, Portfolio Design, Creative Direction</p>
