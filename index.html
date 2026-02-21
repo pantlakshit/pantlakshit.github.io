@@ -6,6 +6,7 @@
 
 <title>Lakshit Pant | UI/UX & Branding Portfolio</title>
 
+<!-- Apple Style Font (FREE & Premium) -->
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 <style>
@@ -13,135 +14,93 @@
 margin:0;
 padding:0;
 box-sizing:border-box;
-scroll-behavior:smooth;
 }
 
 body{
-background:#0a0a0a;
+background:#0b0c1a;
 color:#ffffff;
 font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Helvetica, Arial, sans-serif;
-line-height:1.7;
+line-height:1.6;
 -webkit-font-smoothing: antialiased;
 }
 
-/* APPLE GLOW BG */
-body::before{
-content:"";
-position:fixed;
-top:-200px;
-left:-200px;
-width:600px;
-height:600px;
-background:radial-gradient(circle, rgba(255,255,255,0.04), transparent 70%);
-z-index:-1;
-}
-
-/* HEADER */
+/* HEADER (Apple Minimal Hero) */
 header{
-padding:130px 20px 90px;
+padding:100px 20px 80px;
 text-align:center;
-background:linear-gradient(180deg,#0a0a0a,#050505);
+background:#0a0a0a;
 }
 
 header h1{
-font-size:66px;
+font-size:56px;
 font-weight:600;
-letter-spacing:-1.6px;
-margin-bottom:18px;
+letter-spacing:-1px;
+margin-bottom:14px;
+color:#ffffff;
 }
 
 header p{
-color:#9ea3a8;
-font-size:21px;
-max-width:680px;
+color:#9aa0a6;
+font-size:18px;
+max-width:600px;
 margin:auto;
-font-weight:400;
 }
 
 /* SECTIONS */
 section{
-padding:100px 20px;
-max-width:1150px;
+padding:80px 20px;
+max-width:1000px;
 margin:auto;
-border-top:1px solid #141414;
 }
 
 h2{
-font-size:42px;
+font-size:32px;
 font-weight:600;
-margin-bottom:45px;
-letter-spacing:-0.9px;
+margin-bottom:30px;
+color:#ffffff;
+letter-spacing:-0.5px;
 }
 
-/* GRID */
+/* PROJECT GRID */
 .projects{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
-gap:40px;
+gap:30px;
+margin-top:40px;
 }
 
-/* CARDS */
+/* APPLE STYLE CARDS */
 .card{
-background:linear-gradient(180deg,#111111,#0d0d0d);
-padding:36px;
-border-radius:24px;
-transition:all 0.4s ease;
+background:#111111;
+padding:32px;
+border-radius:18px;
+transition:all 0.35s ease;
 border:1px solid #1f1f1f;
 }
 
 .card:hover{
-transform:translateY(-10px) scale(1.01);
-border:1px solid #2a2a2a;
-box-shadow:0 35px 70px rgba(0,0,0,0.65);
+transform:translateY(-6px);
+border:1px solid #2c2c2c;
+box-shadow:0 20px 40px rgba(0,0,0,0.4);
 }
 
 .card h3{
-font-size:25px;
+font-size:22px;
 font-weight:600;
-margin-bottom:14px;
-letter-spacing:-0.4px;
+margin-bottom:12px;
+color:#ffffff;
 }
 
 .card p{
 color:#a1a1a6;
-font-size:16px;
-margin-bottom:22px;
+font-size:15px;
+margin-bottom:20px;
 }
 
-/* TAGS */
-.tags{
-margin-bottom:18px;
-}
-
-.tag{
-display:inline-block;
-padding:6px 14px;
-margin:4px 6px 0 0;
-background:#1a1a1a;
-border-radius:999px;
-font-size:12px;
-color:#cfcfcf;
-border:1px solid #2a2a2a;
-}
-
-/* IMAGE */
-.logo-img{
-width:100%;
-border-radius:18px;
-margin-bottom:18px;
-border:1px solid #1f1f1f;
-transition:0.4s ease;
-cursor:pointer;
-}
-
-.logo-img:hover{
-transform:scale(1.03);
-}
-
-/* BUTTON */
+/* APPLE STYLE BUTTON */
 .project-btn{
 display:inline-block;
-padding:13px 26px;
+padding:12px 22px;
 background:#ffffff;
 color:#000000;
 border-radius:999px;
@@ -153,28 +112,54 @@ transition:all 0.3s ease;
 
 .project-btn:hover{
 background:#e6e6e6;
-transform:scale(1.06);
+transform:scale(1.04);
 }
 
-/* ABOUT */
+/* ABOUT SECTION */
 .about{
-background:linear-gradient(180deg,#111111,#0d0d0d);
-border-radius:24px;
-padding:50px;
+background:#111111;
+border-radius:18px;
+padding:40px;
 border:1px solid #1f1f1f;
 color:#b5b5b5;
-font-size:17px;
-line-height:1.9;
+font-size:16px;
+line-height:1.8;
 }
 
 /* FOOTER */
 footer{
 text-align:center;
-padding:60px 20px;
-background:#050505;
+padding:40px 20px;
+background:#0a0a0a;
 color:#6e6e73;
 font-size:14px;
-border-top:1px solid #141414;
+border-top:1px solid #1a1a1a;
+}
+  /* APPLE STYLE TYPOGRAPHY */
+header h1{
+font-size:58px;
+font-weight:600;
+letter-spacing:-1.2px;
+}
+
+header p{
+font-size:19px;
+font-weight:400;
+color:#a1a6ff;
+letter-spacing:-0.2px;
+}
+
+h2{
+font-size:36px;
+font-weight:600;
+letter-spacing:-0.6px;
+border-bottom:2px solid rgba(255,255,255,0.08);
+}
+
+.card h3{
+font-size:22px;
+font-weight:600;
+letter-spacing:-0.4px;
 }
 </style>
 </head>
@@ -183,62 +168,26 @@ border-top:1px solid #141414;
 
 <header>
 <h1>Lakshit Pant</h1>
-<p>
-Designing minimal, premium and conversion-focused digital experiences 
-with a strong focus on UI/UX, branding and real-world client brief projects.
-</p>
+<p>UI/UX & Branding Designer crafting minimal, modern and conversion-focused digital experiences.</p>
 </header>
 
 <section>
 <h2>Featured Projects</h2>
-
 <div class="projects">
 
-<!-- MERGED SPARK PROJECT -->
 <div class="card">
-<h3>Spark — Branding, Identity & Logo</h3>
-
-<a href="images/sample-logo.jpg" target="_blank">
-<img src="images/sample-logo.jpg" alt="Spark Logo" class="logo-img">
-</a>
-
-<div class="tags">
-<span class="tag">Branding</span>
-<span class="tag">Logo Design</span>
-<span class="tag">Identity</span>
-<span class="tag">Creative Direction</span>
+<h3>Spark — Branding & Identity</h3>
+<p>A cinematic branding system designed for an animation workshop company targeting young adults. Focused on strong identity, premium visuals, and professional brand presence.</p>
 </div>
 
-<p>
-A complete cinematic branding system designed for the Spark animation workshop brand targeting young adults. 
-The project includes logo design, visual identity, and premium brand positioning with a modern, minimal and 
-memorable aesthetic suitable for digital platforms and creative industries.
-</p>
-
-<a href="images/sample-logo.jpg" class="project-btn" target="_blank">
-View Full Logo →
-</a>
-</div>
-
-<!-- TECHNICAL HOURGLASS -->
 <div class="card">
 <h3>Technical Hourglass — Full Website Design</h3>
+<p>A modern multi-page website (Shop, Blog, Contact) built for a health-tech brand focused on solo living safety. Designed with minimal UI and high-conversion landing structure.</p>
 
-<div class="tags">
-<span class="tag">UI/UX</span>
-<span class="tag">Web Design</span>
-<span class="tag">Conversion Design</span>
-</div>
-
-<p>
-A modern multi-page website (Shop, Blog, Contact) created for a health-tech brand focused on people living alone.
-Designed with strong UX hierarchy, minimal Apple-style UI, and a clean professional layout 
-optimized for clarity and conversions.
-</p>
-
-<a href="sample-project/" class="project-btn" target="_blank">
+<a href="Sample%20Project%20for%20Portfolio/" class="project-btn">
 View Live Website →
 </a>
+
 </div>
 
 </div>
@@ -247,11 +196,7 @@ View Live Website →
 <section>
 <h2>About Me</h2>
 <div class="about">
-<p>
-Hello, I'm Lakshit Pant — a UI/UX and Branding focused student designer building modern,
-minimal and real-world portfolio projects based on professional client briefs to simulate
-industry-level design workflows and create premium digital experiences.
-</p>
+<p>Hello, I'm Lakshit Pant — a student designer specializing in UI/UX, Branding, and modern web experiences. I create real-world portfolio projects based on professional client briefs to simulate industry-level design workflows.</p>
 <br>
 <p><strong>Skills:</strong> UI/UX Design, Branding, Logo Design, Portfolio Design, Creative Direction</p>
 <br>
@@ -260,7 +205,7 @@ industry-level design workflows and create premium digital experiences.
 </section>
 
 <footer>
-<p>© 2026 Lakshit Pant — Minimal Apple Style Designer Portfolio</p>
+<p>© 2026 Lakshit Pant — Minimal Designer Portfolio</p>
 </footer>
 
 </body>
