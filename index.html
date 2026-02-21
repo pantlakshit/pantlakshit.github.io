@@ -3,90 +3,128 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lakshit Pant | Portfolio</title>
+
+<title>Lakshit Pant | UI/UX & Branding Portfolio</title>
+
+<!-- Premium Fonts (FREE) -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+
 <style>
 *{
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family: Arial, sans-serif;
 }
 
 body{
-background:#0f1020;
-color:white;
+background:#0b0c1a;
+color:#ffffff;
+font-family:'Inter', sans-serif;
 line-height:1.6;
 }
 
+/* HEADER */
 header{
-padding:60px 20px;
+padding:80px 20px;
 text-align:center;
-background:linear-gradient(135deg,#0f1020,#1c1f4a);
+background:linear-gradient(135deg,#0b0c1a,#1b1f4b);
 }
 
 header h1{
-font-size:48px;
-margin-bottom:10px;
+font-family:'Poppins', sans-serif;
+font-size:52px;
+letter-spacing:1px;
+margin-bottom:12px;
 }
 
 header p{
-color:#bdbdfc;
+color:#aab0ff;
 font-size:18px;
 }
 
+/* SECTIONS */
 section{
-padding:60px 20px;
-max-width:1000px;
+padding:70px 20px;
+max-width:1100px;
 margin:auto;
 }
 
 h2{
-font-size:32px;
-margin-bottom:20px;
-border-bottom:2px solid #ff4d4d;
+font-family:'Poppins', sans-serif;
+font-size:34px;
+margin-bottom:25px;
+border-bottom:3px solid #ff4d4d;
 display:inline-block;
-padding-bottom:5px;
+padding-bottom:6px;
 }
 
+/* PROJECT GRID */
 .projects{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-gap:30px;
-margin-top:30px;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:35px;
+margin-top:40px;
 }
 
 .card{
-background:#1a1c3a;
-padding:25px;
-border-radius:12px;
-transition:0.3s;
+background:linear-gradient(145deg,#141633,#1c1f45);
+padding:30px;
+border-radius:16px;
+transition:0.35s ease;
+border:1px solid rgba(255,255,255,0.05);
 }
 
 .card:hover{
-transform:translateY(-8px);
-box-shadow:0 10px 30px rgba(0,0,0,0.4);
+transform:translateY(-10px) scale(1.02);
+box-shadow:0 20px 40px rgba(0,0,0,0.5);
 }
 
 .card h3{
+font-family:'Poppins', sans-serif;
 color:#ff4d4d;
-margin-bottom:10px;
+margin-bottom:12px;
+font-size:22px;
 }
 
 .card p{
-color:#d0d0ff;
+color:#cfd3ff;
+font-size:15px;
+margin-bottom:18px;
 }
 
+/* BUTTON */
+.project-btn{
+display:inline-block;
+padding:10px 20px;
+background:#ff4d4d;
+color:white;
+border-radius:10px;
+text-decoration:none;
+font-weight:600;
+transition:0.3s;
+}
+
+.project-btn:hover{
+background:#ff2e2e;
+transform:scale(1.05);
+}
+
+/* ABOUT */
 .about{
-background:#151733;
-border-radius:12px;
-padding:30px;
+background:#12142b;
+border-radius:16px;
+padding:35px;
+border:1px solid rgba(255,255,255,0.05);
+color:#d5d8ff;
 }
 
+/* FOOTER */
 footer{
 text-align:center;
-padding:30px;
-background:#0a0b1a;
-color:#888;
+padding:35px;
+background:#070812;
+color:#777;
+font-size:14px;
 }
 </style>
 </head>
@@ -95,7 +133,7 @@ color:#888;
 
 <header>
 <h1>Lakshit Pant</h1>
-<p>Branding & UI/UX Designer | Student Designer building creative digital experiences</p>
+<p>Branding & UI/UX Designer | Student Designer building real-world portfolio projects</p>
 </header>
 
 <section>
@@ -104,12 +142,18 @@ color:#888;
 
 <div class="card">
 <h3>Spark — Branding & Identity</h3>
-<p>A modern branding project for an animation workshop company targeting young adults. Designed with a cinematic and creative visual identity to convey innovation, fame, and professionalism.</p>
+<p>A cinematic branding system designed for an animation workshop company targeting young adults. Focused on fame-driven visuals, strong identity, and professional brand presence.</p>
 </div>
 
 <div class="card">
-<h3>Technical Hourglass — Website Design</h3>
-<p>A minimal conversion-focused website concept for a health-tech company that combines open-source technology with a friendly and secure user experience for people living alone.</p>
+<h3>Technical Hourglass — Full Website Design</h3>
+<p>A modern multi-page website (Shop, Blog, Contact) built for a health-tech brand focused on solo living safety. Designed with minimal UI and high conversion landing experience.</p>
+
+<!-- 🔥 REDIRECT BUTTON (MOST IMPORTANT) -->
+<a href="Sample%20Project%20for%20Portfolio/" class="project-btn">
+View Live Website 🚀
+</a>
+
 </div>
 
 </div>
@@ -118,16 +162,16 @@ color:#888;
 <section>
 <h2>About Me</h2>
 <div class="about">
-<p>Hello, I'm Lakshit Pant, a student designer focused on Branding, UI/UX, and creative digital projects. I create concept-based design solutions using real-world client briefs to simulate professional design scenarios.</p>
+<p>Hello, I'm Lakshit Pant, a student designer specializing in Branding, UI/UX, and modern digital experiences. I build portfolio projects based on real client briefs to simulate professional design workflows.</p>
 <br>
-<p>Skills: Branding, Logo Design, UI/UX, Portfolio Design, Creative Direction</p>
+<p><strong>Skills:</strong> Branding, Logo Design, UI/UX, Portfolio Design, Creative Direction</p>
 <br>
-<p>Tools: Canva, AI Design Tools, GitHub Pages</p>
+<p><strong>Tools:</strong> Canva, AI Design Tools, GitHub Pages, Figma (Learning)</p>
 </div>
 </section>
 
 <footer>
-<p>© 2026 Lakshit Pant | Portfolio Website</p>
+<p>© 2026 Lakshit Pant | Designer Portfolio</p>
 </footer>
 
 </body>
