@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us | Technical Hourglass 24/7 Support</title>
+    <meta name="description"
+        content="Reach our 24/7 dedicated support team anytime. Technical Hourglass guarantees complete reliability and assistance to those living independently.">
+
+    <meta property="og:title" content="Contact Technical Hourglass Support">
+    <meta property="og:description" content="24/7 security and peace of mind support for solo lives.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://technicalhourglass.com/contact.html">
+    <meta property="og:image" content="assets/images/og-image.jpg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <a href="#main-content" class="sr-only">Skip to main content</a>
+
+    <!-- Header Navigation -->
+    <header class="header" id="header" role="banner">
+        <div class="container nav flex justify-between items-center">
+            <a href="index.html" class="brand-logo" aria-label="Technical Hourglass Home">
+                <div class="brand-icon" aria-hidden="true"><i class="ph ph-hourglass-high"></i></div>
+                Technical Hourglass
+            </a>
+
+            <button class="menu-toggle" id="mobileMenuBtn" aria-expanded="false" aria-controls="navMenu"
+                aria-label="Toggle navigation menu">
+                <i class="ph ph-list"></i>
+            </button>
+
+            <nav class="nav-menu" id="navMenu" role="navigation" aria-label="Main Navigation">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="shop.html" class="nav-link">Shop</a>
+                <a href="blog.html" class="nav-link">Blog</a>
+                <a href="contact.html" class="nav-link active" aria-current="page">Contact</a>
+                <a href="index.html#newsletter" class="btn btn-primary btn-sm">Subscribe</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content" style="padding-top: calc(80px + var(--space-xl));">
+        <section class="section">
+            <div class="container">
+                <div class="text-center reveal" style="max-width: 700px; margin: 0 auto var(--space-2xl);">
+                    <div class="badge" style="margin-bottom: var(--space-md);">
+                        <i class="ph ph-headset" aria-hidden="true"></i> 24/7 Assistance
+                    </div>
+                    <h1 class="heading-xl">Always Here For You.</h1>
+                    <p class="text-lg">Whether you have questions about our security systems or need immediate support,
+                        our dedicated team is available around the clock to assist you and your loved ones.</p>
+                </div>
+
+                <div class="grid grid-cols-2 gap-2xl">
+                    <!-- Contact Information -->
+                    <div class="reveal" style="transition-delay: 100ms;">
+                        <h2 class="heading-md">Global Support, Local Care</h2>
+                        <p style="margin-bottom: var(--space-xl);">We are headquartered in San Francisco, but our
+                            support specialists are distributed globally to guarantee zero-wait response times.</p>
+
+                        <div class="flex flex-col gap-lg">
+                            <div class="flex gap-md">
+                                <div class="icon-box"><i class="ph ph-map-pin" aria-hidden="true"></i></div>
+                                <div>
+                                    <h3 class="text-lg font-bold" style="margin-bottom: 0.25rem;">Office Address</h3>
+                                    <address style="font-style: normal; color: var(--color-text-muted);">100 Market St,
+                                        Suite 400<br>San Francisco, CA 94105</address>
+                                </div>
+                            </div>
+
+                            <div class="flex gap-md">
+                                <div class="icon-box"><i class="ph ph-phone" aria-hidden="true"></i></div>
+                                <div>
+                                    <h3 class="text-lg font-bold" style="margin-bottom: 0.25rem;">Emergency Phone</h3>
+                                    <div style="color: var(--color-text-main); font-weight: 500; font-size: 1.125rem;">
+                                        +1 (800) 555-0199</div>
+                                    <div class="text-sm font-medium text-primary" style="margin-top: 0.25rem;">Always
+                                        open for active users</div>
+                                </div>
+                            </div>
+
+                            <div class="flex gap-md">
+                                <div class="icon-box"><i class="ph ph-envelope-simple" aria-hidden="true"></i></div>
+                                <div>
+                                    <h3 class="text-lg font-bold" style="margin-bottom: 0.25rem;">General Inquiries</h3>
+                                    <a href="mailto:support@technicalhourglass.com" class="text-muted"
+                                        style="text-decoration: underline;">support@technicalhourglass.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form (Accessible & Validation Ready) -->
+                    <div class="card reveal" style="transition-delay: 200ms; padding: var(--space-xl);">
+                        <h2 class="heading-md" style="margin-bottom: var(--space-lg);">Send a Secure Message</h2>
+                        <form id="contactForm" aria-label="Contact Support">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Full Name <span class="text-primary"
+                                        aria-hidden="true">*</span></label>
+                                <input type="text" id="name" name="name" class="form-input" required
+                                    aria-required="true" placeholder="E.g., John Doe">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email Address <span class="text-primary"
+                                        aria-hidden="true">*</span></label>
+                                <input type="email" id="email" name="email" class="form-input" required
+                                    aria-required="true" placeholder="john@example.com">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject" class="form-label">How can we assist you? <span
+                                        class="text-primary" aria-hidden="true">*</span></label>
+                                <select id="subject" name="subject" class="form-input" required aria-required="true">
+                                    <option value="" disabled selected>Select an option...</option>
+                                    <option value="sales">Product & Sales Inquiry</option>
+                                    <option value="support">Technical Support</option>
+                                    <option value="emergency">Emergency Handling Setup</option>
+                                    <option value="other">Other Inquiry</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message" class="form-label">Your Message <span class="text-primary"
+                                        aria-hidden="true">*</span></label>
+                                <textarea id="message" name="message" class="form-input" rows="5" required
+                                    aria-required="true" placeholder="Please provide details..."></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block"
+                                style="margin-top: var(--space-sm);">Send Securely</button>
+
+                            <div class="flex items-center gap-xs text-sm text-muted justify-center"
+                                style="margin-top: var(--space-md);">
+                                <i class="ph ph-lock-key" aria-hidden="true"></i> Your data is end-to-end encrypted.
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Professional Footer (Same as Index) -->
+    <footer class="footer bg-dark" role="contentinfo">
+        <div class="container grid grid-cols-4 gap-xl" style="margin-bottom: var(--space-xl);">
+            <div style="grid-column: span 1;">
+                <a href="index.html" class="brand-logo"
+                    style="color: var(--color-white); margin-bottom: var(--space-md);">
+                    <div class="brand-icon" aria-hidden="true"><i class="ph ph-hourglass-high"></i></div>
+                    Tech Hourglass
+                </a>
+                <p class="text-sm text-muted">Empowering independence through smart, reliable, and unobtrusive safety
+                    solutions designed specifically for those who live alone.</p>
+            </div>
+            <div>
+                <h4 class="text-lg font-bold" style="color: var(--color-white); margin-bottom: var(--space-md);">Company
+                </h4>
+                <nav class="footer-nav" aria-label="Company Links">
+                    <a href="index.html#about">About Us</a>
+                    <a href="contact.html">Contact Support</a>
+                    <a href="blog.html">Blog & Insights</a>
+                    <a href="#">Careers</a>
+                </nav>
+            </div>
+            <div>
+                <h4 class="text-lg font-bold" style="color: var(--color-white); margin-bottom: var(--space-md);">
+                    Products</h4>
+                <nav class="footer-nav" aria-label="Product Links">
+                    <a href="shop.html">Smart Sensors</a>
+                    <a href="shop.html">Sentinel Wearables</a>
+                    <a href="shop.html">Hub Systems</a>
+                    <a href="shop.html">Pricing Plans</a>
+                </nav>
+            </div>
+            <div>
+                <h4 class="text-lg font-bold" style="color: var(--color-white); margin-bottom: var(--space-md);">Legal
+                </h4>
+                <nav class="footer-nav" aria-label="Legal Links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Security Compliance</a>
+                </nav>
+            </div>
+        </div>
+        <div class="container text-center text-sm text-muted"
+            style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: var(--space-md);">
+            <p>&copy; 2026 Technical Hourglass. All rights reserved. Built for security.</p>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <a href="#main-content" class="back-to-top" id="backToTop" aria-label="Scroll back to top">
+        <i class="ph ph-arrow-up" aria-hidden="true"></i>
+    </a>
+
+    <!-- Optimized JS -->
+    <script src="js/script.js" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Blog & Insights | Technical Hourglass</title>
+    <meta name="description"
+        content="Read the latest articles on living safely, maintaining independence, and maximizing the benefits of personal wellness technology for solo living.">
+
+    <meta property="og:title" content="Blog | Technical Hourglass">
+    <meta property="og:description" content="Insights and resources for independent and secure living.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://technicalhourglass.com/blog.html">
+    <meta property="og:image" content="assets/images/og-image.jpg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-alt">
+    <a href="#main-content" class="sr-only">Skip to main content</a>
+
+    <header class="header" id="header" role="banner">
+        <div class="container nav flex justify-between items-center">
+            <a href="index.html" class="brand-logo" aria-label="Technical Hourglass Home">
+                <div class="brand-icon" aria-hidden="true"><i class="ph ph-hourglass-high"></i></div>
+                Technical Hourglass
+            </a>
+
+            <button class="menu-toggle" id="mobileMenuBtn" aria-expanded="false" aria-controls="navMenu"
+                aria-label="Toggle navigation menu">
+                <i class="ph ph-list"></i>
+            </button>
+
+            <nav class="nav-menu" id="navMenu" role="navigation" aria-label="Main Navigation">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="shop.html" class="nav-link">Shop</a>
+                <a href="blog.html" class="nav-link active" aria-current="page">Blog</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="index.html#newsletter" class="btn btn-primary btn-sm">Subscribe</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content" style="padding-top: calc(80px + var(--space-xl)); padding-bottom: var(--space-3xl);">
+        <section class="section">
+            <div class="container">
+                <div class="text-center reveal" style="max-width: 700px; margin: 0 auto var(--space-xl);">
+                    <div class="badge" style="margin-bottom: var(--space-md);">
+                        <i class="ph ph-book-open" aria-hidden="true"></i> Resources & Guides
+                    </div>
+                    <h1 class="heading-xl">Insights & Advice.</h1>
+                    <p class="text-lg">Read the latest articles on living safely, maintaining independence, and
+                        maximizing the benefits of personal wellness technology.</p>
+                </div>
+
+                <!-- Search UI Handle frontend -->
+                <div class="reveal" style="max-width: 600px; margin: 0 auto var(--space-2xl);">
+                    <form onsubmit="event.preventDefault();" style="position: relative;" aria-label="Search Blog">
+                        <i class="ph ph-magnifying-glass"
+                            style="position: absolute; left: 1rem; top: 50%; transform: translateY(-50%); color: var(--color-text-muted); font-size: 1.25rem;"
+                            aria-hidden="true"></i>
+                        <label for="blogSearch" class="sr-only">Search Articles</label>
+                        <input type="text" id="blogSearch" class="form-input"
+                            placeholder="Search by topic (e.g., Privacy, Fall Detection...)"
+                            style="padding-left: 3rem; border-radius: var(--radius-full); box-shadow: var(--shadow-sm);">
+                    </form>
+                </div>
+
+                <div class="grid grid-cols-3 gap-lg">
+                    <!-- Article 1 -->
+                    <article class="card reveal" style="padding: 0; overflow: hidden; transition-delay: 100ms;">
+                        <a href="#" aria-label="Read: 5 Essential Safety Routines for Solo Living">
+                            <div class="blog-card-img" style="margin: 0; border-bottom: none;">
+                                <i class="ph ph-article" aria-hidden="true"></i>
+                            </div>
+                        </a>
+                        <div class="flex flex-col" style="padding: var(--space-md); flex-grow: 1;">
+                            <div class="flex justify-between items-center" style="margin-bottom: var(--space-sm);">
+                                <span class="badge" style="font-size: 0.7rem;">Health & Safety</span>
+                                <span class="text-sm font-medium text-muted flex items-center gap-xs"><i
+                                        class="ph ph-clock" aria-hidden="true"></i> 5 min read</span>
+                            </div>
+                            <h2 class="heading-md" style="margin-bottom: var(--space-xs);">
+                                <a href="#" class="text-main hover:text-primary transition">5 Essential Safety Routines
+                                    for Solo Living</a>
+                            </h2>
+                            <p class="text-sm mt-auto" style="margin-bottom: var(--space-md);">Discover practical,
+                                easy-to-implement routines that significantly enhance your safety and peace of mind when
+                                living alone.</p>
+
+                            <a href="#" class="font-bold text-sm text-primary flex items-center gap-xs mt-auto">
+                                Read Article <i class="ph ph-arrow-right" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Article 2 -->
+                    <article class="card reveal" style="padding: 0; overflow: hidden; transition-delay: 200ms;">
+                        <a href="#" aria-label="Read: How Ambient Sensors Protect Your Privacy">
+                            <div class="blog-card-img" style="margin: 0; border-bottom: none;">
+                                <i class="ph ph-lightbulb" aria-hidden="true"></i>
+                            </div>
+                        </a>
+                        <div class="flex flex-col" style="padding: var(--space-md); flex-grow: 1;">
+                            <div class="flex justify-between items-center" style="margin-bottom: var(--space-sm);">
+                                <span class="badge" style="font-size: 0.7rem;">Technology</span>
+                                <span class="text-sm font-medium text-muted flex items-center gap-xs"><i
+                                        class="ph ph-clock" aria-hidden="true"></i> 8 min read</span>
+                            </div>
+                            <h2 class="heading-md" style="margin-bottom: var(--space-xs);">
+                                <a href="#" class="text-main hover:text-primary transition">How Ambient Sensors Protect
+                                    Your Privacy</a>
+                            </h2>
+                            <p class="text-sm mt-auto" style="margin-bottom: var(--space-md);">We explain the technology
+                                behind camera-free monitoring and why it's the future of respectful, non-intrusive
+                                safety systems.</p>
+
+                            <a href="#" class="font-bold text-sm text-primary flex items-center gap-xs mt-auto">
+                                Read Article <i class="ph ph-arrow-right" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Article 3 -->
+                    <article class="card reveal" style="padding: 0; overflow: hidden; transition-delay: 300ms;">
+                        <a href="#" aria-label="Read: Maintaining Mental Health and Connectivity">
+                            <div class="blog-card-img" style="margin: 0; border-bottom: none;">
+                                <i class="ph ph-heart" aria-hidden="true"></i>
+                            </div>
+                        </a>
+                        <div class="flex flex-col" style="padding: var(--space-md); flex-grow: 1;">
+                            <div class="flex justify-between items-center" style="margin-bottom: var(--space-sm);">
+                                <span class="badge" style="font-size: 0.7rem;">Wellness</span>
+                                <span class="text-sm font-medium text-muted flex items-center gap-xs"><i
+                                        class="ph ph-clock" aria-hidden="true"></i> 4 min read</span>
+                            </div>
+                            <h2 class="heading-md" style="margin-bottom: var(--space-xs);">
+                                <a href="#" class="text-main hover:text-primary transition">Maintaining Mental Health
+                                    and Connectivity</a>
+                            </h2>
+                            <p class="text-sm mt-auto" style="margin-bottom: var(--space-md);">Living alone shouldn't
+                                mean feeling isolated. Here are strategies to foster meaningful connections while
+                                cherishing your independence.</p>
+
+                            <a href="#" class="font-bold text-sm text-primary flex items-center gap-xs mt-auto">
+                                Read Article <i class="ph ph-arrow-right" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark" role="contentinfo">
+        <div class="container grid grid-cols-4 gap-xl" style="margin-bottom: var(--space-xl);">
+            <div style="grid-column: span 1;">
+                <a href="index.html" class="brand-logo"
+                    style="color: var(--color-white); margin-bottom: var(--space-md);">
+                    <div class="brand-icon" aria-hidden="true"><i class="ph ph-hourglass-high"></i></div>
+                    Tech Hourglass
+                </a>
+                <p class="text-sm text-muted">Empowering independence through smart, reliable, and unobtrusive safety
+                    solutions designed specifically for those who live alone.</p>
+            </div>
+            <div>
+                <h4 class="text-lg font-bold" style="color: var(--color-white); margin-bottom: var(--space-md);">Company
+                </h4>
+                <nav class="footer-nav">
+                    <a href="index.html#about">About Us</a>
+                    <a href="contact.html">Contact Support</a>
+                    <a href="blog.html">Blog & Insights</a>
+                </nav>
+            </div>
+            <div>
+                <h4 class="text-lg font-bold" style="color: var(--color-white); margin-bottom: var(--space-md);">
+                    Products</h4>
+                <nav class="footer-nav">
+                    <a href="shop.html">Smart Sensors</a>
+                    <a href="shop.html">Sentinel Wearables</a>
+                    <a href="shop.html">Hub Systems</a>
+                </nav>
+            </div>
+            <div>
+                <h4 class="text-lg font-bold" style="color: var(--color-white); margin-bottom: var(--space-md);">Legal
+                </h4>
+                <nav class="footer-nav">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </nav>
+            </div>
+        </div>
+        <div class="container text-center text-sm text-muted"
+            style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: var(--space-md);">
+            <p>&copy; 2026 Technical Hourglass. All rights reserved. Built for security.</p>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <a href="#main-content" class="back-to-top" id="backToTop" aria-label="Scroll back to top">
+        <i class="ph ph-arrow-up" aria-hidden="true"></i>
+    </a>
+
+    <script src="js/script.js" defer></script>
+</body>
+
+</html>

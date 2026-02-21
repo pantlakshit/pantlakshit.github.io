@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shop | Technical Hourglass Safety Devices</title>
+    <meta name="description"
+        content="Discover our range of products designed to seamlessly integrate into your home, providing uncompromising safety and peace of mind for solo living.">
+
+    <meta property="og:title" content="Shop Technical Hourglass">
+    <meta property="og:description" content="Shop premium, privacy-first safety solutions for independent living.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://technicalhourglass.com/shop.html">
+    <meta property="og:image" content="assets/images/og-image.jpg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Product Schema Markup Example -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "itemListElement": [
+        {
+          "@type": "Product",
+          "name": "Sentinel Wearable",
+          "offers": {
+            "@type": "Offer",
+            "price": "199.00",
+            "priceCurrency": "USD"
+          }
+        }
+      ]
+    }
+    </script>
+</head>
+
+<body class="bg-alt">
+    <a href="#main-content" class="sr-only">Skip to main content</a>
+
+    <header class="header" id="header" role="banner">
+        <div class="container nav flex justify-between items-center">
+            <a href="index.html" class="brand-logo" aria-label="Technical Hourglass Home">
+                <div class="brand-icon" aria-hidden="true"><i class="ph ph-hourglass-high"></i></div>
+                Technical Hourglass
+            </a>
+
+            <button class="menu-toggle" id="mobileMenuBtn" aria-expanded="false" aria-controls="navMenu"
+                aria-label="Toggle navigation menu">
+                <i class="ph ph-list"></i>
+            </button>
+
+            <nav class="nav-menu" id="navMenu" role="navigation" aria-label="Main Navigation">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="shop.html" class="nav-link active" aria-current="page">Shop</a>
+                <a href="blog.html" class="nav-link">Blog</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="index.html#newsletter" class="btn btn-primary btn-sm">Subscribe</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content" style="padding-top: calc(80px + var(--space-xl)); padding-bottom: var(--space-3xl);">
+        <section class="section">
+            <div class="container">
+                <div class="text-center reveal" style="max-width: 700px; margin: 0 auto var(--space-2xl);">
+                    <div class="badge" style="margin-bottom: var(--space-md);">
+                        <i class="ph ph-shield-check" aria-hidden="true"></i> 100% Privacy Guaranteed
+                    </div>
+                    <h1 class="heading-xl">Safety Solutions Store.</h1>
+                    <p class="text-lg">Discover our range of products designed to seamlessly integrate into your home,
+                        providing uncompromising safety without feeling intrusive.</p>
+                </div>
+
+                <div class="grid grid-cols-3 gap-lg">
+                    <!-- Product 1 -->
+                    <article class="card reveal" style="transition-delay: 100ms;">
+                        <div class="shop-card-img">
+                            <i class="ph ph-watch" aria-hidden="true"></i>
+                            <div class="shop-badge">Best Seller</div>
+                        </div>
+                        <div class="flex flex-col" style="flex-grow: 1;">
+                            <h2 class="heading-md" style="margin-bottom: 0.25rem;">Sentinel Wearable</h2>
+                            <p class="text-sm">Advanced biometric tracking with automatic fall detection and one-touch
+                                emergency SOS.</p>
+                            <div class="flex items-center justify-between mt-auto" style="margin-top: auto;">
+                                <span class="font-bold text-lg">$199</span>
+                                <div class="flex gap-xs">
+                                    <button class="btn btn-primary btn-sm"
+                                        onclick="alert('Proceeding to secure checkout.')"
+                                        aria-label="Buy Sentinel Wearable">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Product 2 -->
+                    <article class="card reveal" style="transition-delay: 200ms;">
+                        <div class="shop-card-img">
+                            <i class="ph ph-router" aria-hidden="true"></i>
+                        </div>
+                        <div class="flex flex-col" style="flex-grow: 1;">
+                            <h2 class="heading-md" style="margin-bottom: 0.25rem;">Central Hub Pro</h2>
+                            <p class="text-sm">The brain of your safety ecosystem. Connects all sensors and ensures 24/7
+                                connectivity even during outages.</p>
+                            <div class="flex items-center justify-between mt-auto" style="margin-top: auto;">
+                                <span class="font-bold text-lg">$249</span>
+                                <div class="flex gap-xs">
+                                    <button class="btn btn-primary btn-sm"
+                                        onclick="alert('Proceeding to secure checkout.')"
+                                        aria-label="Buy Central Hub Pro">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Product 3 -->
+                    <article class="card reveal" style="transition-delay: 300ms;">
+                        <div class="shop-card-img">
+                            <i class="ph ph-webcam" aria-hidden="true"></i>
+                            <div class="shop-badge" style="background: var(--color-text-main);">New</div>
+                        </div>
+                        <div class="flex flex-col" style="flex-grow: 1;">
+                            <h2 class="heading-md" style="margin-bottom: 0.25rem;">Privacy-First Sensor</h2>
+                            <p class="text-sm">Motion and ambient tracking without cameras. Detects anomalies in routine
+                                while preserving 100% privacy.</p>
+                            <div class="flex items-center justify-between mt-auto" style="margin-top: auto;">
+                                <span class="font-bold text-lg">$89</span>
+                                <div class="flex gap-xs">
+                                    <button class="btn btn-primary btn-sm"
+                                        onclick="alert('Proceeding to secure checkout.')"
+                                        aria-label="Buy Privacy-First Sensor">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="reveal text-center" style="margin-top: var(--space-2xl);">
+                    <div class="flex justify-center items-center gap-md text-sm font-medium text-muted">
+                        <div class="flex items-center gap-xs"><i class="ph ph-shield-check text-primary"
+                                aria-hidden="true"></i> Secure Checkout</div>
+                        <div class="flex items-center gap-xs"><i class="ph ph-truck text-primary"
+                                aria-hidden="true"></i> Free Global Shipping</div>
+                        <div class="flex items-center gap-xs"><i class="ph ph-arrow-u-down-left text-primary"
+                                aria-hidden="true"></i> 30-Day Returns</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark" role="contentinfo">
+        <div class="container grid grid-cols-4 gap-xl" style="margin-bottom: var(--space-xl);">
+            <!-- Footer Content (Same as other pages) -->
+            <div style="grid-column: span 1;">
+                <a href="index.html" class="brand-logo"
+                    style="color: var(--color-white); margin-bottom: var(--space-md);">
+                    <div class="brand-icon" aria-hidden="true"><i class="ph ph-hourglass-high"></i></div>
+                    Tech Hourglass
+                </a>
+                <p class="text-sm text-muted">Empowering independence through smart, reliable, and unobtrusive safety
+                    solutions designed specifically for those who live alone.</p>
+            </div>
+            <div>
+                <h4 class="text-lg font-bold" style="color: var(--color-white); margin-bottom: var(--space-md);">Company
+                </h4>
+                <nav class="footer-nav">
+                    <a href="index.html#about">About Us</a>
+                    <a href="contact.html">Contact Support</a>
+                    <a href="blog.html">Blog & Insights</a>
+                </nav>
+            </div>
+            <div>
+                <h4 class="text-lg font-bold" style="color: var(--color-white); margin-bottom: var(--space-md);">
+                    Products</h4>
+                <nav class="footer-nav">
+                    <a href="shop.html">Smart Sensors</a>
+                    <a href="shop.html">Sentinel Wearables</a>
+                    <a href="shop.html">Hub Systems</a>
+                </nav>
+            </div>
+            <div>
+                <h4 class="text-lg font-bold" style="color: var(--color-white); margin-bottom: var(--space-md);">Legal
+                </h4>
+                <nav class="footer-nav">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </nav>
+            </div>
+        </div>
+        <div class="container text-center text-sm text-muted"
+            style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: var(--space-md);">
+            <p>&copy; 2026 Technical Hourglass. All rights reserved. Built for security.</p>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <a href="#main-content" class="back-to-top" id="backToTop" aria-label="Scroll back to top">
+        <i class="ph ph-arrow-up" aria-hidden="true"></i>
+    </a>
+
+    <script src="js/script.js" defer></script>
+</body>
+
+</html>
